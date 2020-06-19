@@ -1,0 +1,311 @@
+#head {
+height: 137px;
+background-color: white;
+border-bottom: 1px solid rgb(208,217,209);
+}
+#head h1 {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 72px;
+    font-weight: normal;
+    color: rgb(8,79,23);
+}
+/* logo样式 */
+.webLogo {
+margin-top: -8px;
+float: left;
+width: 160px;
+height: 160px;
+margin-left: 151px;
+}
+/* input输入框样式 */
+#search {
+position: relative;
+margin-left:300px;
+margin-top: 65px;
+float: left;
+width: 468px;
+height:34px;
+background: none;
+outline: none;
+border: 2px solid rgb(45, 71, 62);
+font-size: 13px;
+color: gray;
+padding-left: 8px;
+}
+/* 搜索框样式 */
+.seimg_span {
+margin-top: 65px;
+float: left;
+width: 70px;
+height: 38px;
+background-color:rgb(45, 71, 62);
+}
+/* 搜索框的iconfont样式 */
+.search_img {
+margin:10px 25px;
+width:20px;
+height:20px;
+background-color:rgb(45, 71, 62);
+}
+/* 整个div */
+#mainPart {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 左侧列表 */
+.mainLeft {
+    position: absolute;
+}
+/* 账户管理 */
+.mainLeft p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(8,79,23);
+}
+/* 左侧列表菜单ul */
+.mainmenu {
+    margin: 20px 0;
+}
+/* 左侧列表li */
+.mainmenu li>button {
+    font-size: 15px;
+    margin-top: 6px;
+    background-color: white;
+    border: none;
+}
+.active {
+    color: teal;
+}
+/* 右边所有信息div */
+.mainright {
+    margin-top: 34px;
+    margin-left: 120px;
+    padding-bottom: 25px;
+}
+/* 个人资料 */
+.peinfo {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(8,79,23);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgb(184,216,199);
+    border-bottom: none;
+}
+/* 基本资料和头像照片两个button */
+.babtn button {
+    width: 92px;
+    height: 28px;
+    border: none;
+    background-color: white;
+}
+/* 基本资料和头像照片的一整个div */
+.babtn {
+    border: 1px solid rgb(184,216,199);
+}
+/* 基本资料div */
+#basicInfo {
+    border: 1px solid rgb(184,216,199);
+    border-top: none;
+    padding: 25px;
+    padding-bottom: 40px;
+}
+/* 基本资料保存按钮 */
+.basicPreser { 
+    width: 80px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 90px;
+    background-color: rgb(60,116,107);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 8px;
+    border: none;
+}
+/* 主体一整个form*/
+.basicData {
+    margin: 0;
+}
+/* 主体部分各部分内容p */
+.basicData p {
+    padding-top: 30px;
+}
+.textp {
+    padding-bottom: 30px;
+    padding-top: 10px !important;
+}
+/* 头像照片标题 */
+.headimg span {    
+    font-size: 13px;
+    position: absolute;
+}
+/* 头像照片img */
+.headimg img {
+    width: 70px;
+    height: 70px;
+    margin-left: 84px;
+}
+/* 昵称和性别、 */
+.batitle {
+    font-size: 13px;
+    letter-spacing: 7px;
+}
+/* 昵称的input */
+.nickname>input {
+    width: 320px;
+    height: 22px;
+    padding: 5px;
+    border: 1px solid #cecece;
+    font-size: 13px;
+}
+/* 真实姓名标题 */
+.truename span {    
+    font-size: 13px;
+}
+/* 真实姓名的input */
+.truename>input {
+    font-size: 13px;
+    margin-left: 7px;
+    height: 22px;
+    padding: 5px;
+    border: 1px solid #cecece;
+}
+/* 性别input */
+.trsex label input {
+    margin-left: 20px;
+}
+.trsex label {    
+    font-size: 13px;
+}
+/* 基本资料和头像照片按钮点击后的样式 */
+.infoActive {
+    font-weight: bold;
+    color: rgb(240,78,55);
+}
+
+/* 上传头像div左边 */
+.user-header{
+    position: relative;
+    display: inline-block;
+    border-right:1px solid rgb(184,216,199) ;
+    padding-right: 33px;
+}
+/* 上传头像图片img左边 */
+.user-header-com{
+    margin-top: 5px;
+    width: 420px;
+    height: 310px;
+    display: inline-block;
+    border: 1px solid rgb(184,216,199);
+    background: url('/img/iconfonts/upload.png') no-repeat;
+}
+/* 点击上传input */
+.header-upload-btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    /* 通过定位把input放在img标签上面，通过不透明度隐藏 */
+}
+/* 图片限制提示文字 */
+.tip{
+    font-size: 13px;
+    color: rgb(190,197,194);
+}
+/* error是用于错误提示 */
+.error{
+    font-size: 12px;
+    color: tomato;
+    margin-left: 10px;
+}
+/* 保存按钮 */
+.preservation {
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 156px;
+    background-color: rgb(60,116,107);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 8px;
+    border: none;
+}
+/* 保存按钮鼠标悬停效果 */
+.preservation:hover {
+    background-color: teal;
+}
+
+/* 所有尺寸头像div */
+.allhead {    
+    position: absolute;
+    margin-left: 490px;
+    margin-top: -320px;
+}
+/* 大尺寸头像div */
+.bighead {
+    position: absolute;
+}
+/* 大尺寸头像img */
+.user-bigimg {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    border: 1px solid rgb(184,216,199);
+    background: url('/img/iconfonts/yl.png') no-repeat;
+    background-size: 160px 160px;
+}
+/* 生成三种尺寸图片提示 */
+.imgTips {
+    width: 160px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgb(189,75,0);
+}
+/* 大尺寸图片标示 */
+.imgsize1 {
+    font-size: 13px;
+    width: 160px;
+    color: gray;
+}
+/* 中尺寸头像div */
+.Mhead {
+    margin-left: 190px;
+    margin-top: 60px;
+}
+/* 中尺寸头像 */
+.user-Mimg {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid rgb(184,216,199);
+    background: url('/img/iconfonts/yl.png') no-repeat;
+    background-size: 60px 60px;
+}
+/* 中尺寸和小尺寸图片标示 */
+.imgsize2 {    
+    font-size: 12px;
+    width: 65px;
+    color: gray;
+}
+/* 小尺寸头像div */
+.Shead {    
+    margin-left: 190px;
+    margin-top: 17px;
+}
+/* 小尺寸头像img */
+.user-Simg {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid rgb(184,216,199);
+    background: url('/img/iconfonts/yl.png') no-repeat;
+    background-size: 30px 30px;
+}
+/* 收货地址 */
+#addressinfo {
+    margin-left: 115px;
+    margin-top: 34px;
+}

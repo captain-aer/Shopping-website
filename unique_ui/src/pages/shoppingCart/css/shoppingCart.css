@@ -1,0 +1,265 @@
+#head {
+    height: 137px;
+    background-color: white;
+    border-bottom: 1px solid rgb(208,217,209);
+}
+#head h1 {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 72px;
+    font-weight: normal;
+    color: rgb(8,79,23);
+}
+/* logo样式 */
+.webLogo {
+    margin-top: -8px;
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin-left: 151px;
+}
+/* input输入框样式 */
+#search {
+    position: relative;
+    margin-left:300px;
+    margin-top: 65px;
+    float: left;
+    width: 468px;
+    height:34px;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(45, 71, 62);
+    font-size: 13px;
+    color: gray;
+    padding-left: 8px;
+}
+/* 搜索框样式 */
+.seimg_span {
+    margin-top: 65px;
+    float: left;
+    width: 70px;
+    height: 38px;
+    background-color:rgb(45, 71, 62);
+}
+/* 搜索框的iconfont样式 */
+.search_img {
+    margin:10px 25px;
+    width:20px;
+    height:20px;
+    background-color:rgb(45, 71, 62);
+}
+
+/* 购物车所有商品div */
+.shopCar {
+    width: 1180px;
+    margin: 25px auto;
+}
+/* 全部商品标题div */
+.shopCarTop {
+    border-bottom: 3px solid rgb(222,222,222);
+    margin-bottom: 18px;
+}
+/* 全部商品标题p */
+.shopCarTop p {
+    width: 120px;
+    height: 34px;
+    color: rgb(5,78,22);
+    font-weight: bold;
+    margin-bottom: -3px;
+    border-bottom: 3px solid rgb(5,78,22);
+    line-height: 32px;
+    text-align: center;
+}
+
+/* checkbox样式 */
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    -webkit-appearance:none;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    outline: none;
+}
+/* checkbox样式 已选择 */
+input[type=checkbox]:checked{
+   background: url("/img/iconfonts/checked.png") no-repeat center;
+}
+
+/* 列表 */
+[v-cloak] {
+    display: none;
+}
+/* 列表表格 */
+table {
+    width: 1180px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+tr {
+    border: 1px solid #C1DAD7;
+}
+/* 表格头部 */
+th {
+    font: bold 13px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: rgb(241,246,242);
+}
+/* 表格td */
+td {
+    background: #fff;
+    font-size:14px;
+    padding: 12px 6px 12px 12px;
+    color: #4f6b72;
+}
+/* 商品图片 */
+.shopimg {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid rgb(45, 71, 62);
+    margin-right: 15px;
+}
+/* 商品名称a */
+.itemname {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+/* 商品名称a的鼠标悬停效果 */
+.itemname:hover {
+    color: rgb(229,122,70);
+    text-decoration: underline;
+}
+/* 原价 */
+.oldpri {
+    color: #9c9c9c;
+    text-decoration: line-through;
+}
+/* 现价 */
+.newpri {
+    font-size: 16px;
+    color: black;
+}
+/* ¥符号 */
+.renmb {
+    font-size: 12px;
+}
+.numbtn {
+    height: 24px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 24px;
+    color: #444;
+}
+.numbtn:hover {
+    border: 1px solid #f40;
+    color: #f40;
+}
+.itemcount {
+    box-sizing: border-box;
+    width: 39px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    left: 18px;
+}
+.delete {
+    background-color: white;
+    border: none;
+    color: rgb(45, 71, 62);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.delete:hover {
+    color: #f40;
+}
+.jine {
+    color: #f40;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 底部div */
+.gwcbuttom {
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding-left: 12px;
+    width: 1180px;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(247,250,243);
+    border: 1px solid rgb(208,217,209);
+}
+/* 底部div的p */
+.gwcbuttom p {
+    display: inline-block;
+}
+/* 底部的全选input */
+#checkAll2 {
+    position: absolute;
+    margin-top: 14px;
+}
+/* 底部的全选span */
+.quanxuan {
+    margin-left: 23px;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* 底部的删除、移入收藏夹、已选商品、合计 */
+.delete2,.collection,.seleshop,.priceAll {
+    margin-left: 50px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* 底部删除和移入收藏夹的鼠标悬停效果 */
+.gwcbuttom a:hover {
+    color: rgb(229,122,70);
+}
+/* 底部结算按钮 */
+.jiesuan {
+    width: 80px;
+    height: 45px;
+    float: right;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: rgb(92,126,127);
+    border:none;
+    margin-top: -1px;
+    text-align: center;
+}
+/* 已选商品 */
+.seleshop {
+    margin-left: 500px;
+}
+/* 已选商品数量span */
+.seleshop span {
+    color: rgb(229,122,70);
+    font-size: 20px;
+    margin: 0 9px;
+}
+/* 合计 */
+.priceAll {
+    margin-left: 90px;
+}
+.priceAll span {    
+    color: rgb(229,122,70);
+}
+.priceAll .totalpri {
+    font-size: 20px;
+}

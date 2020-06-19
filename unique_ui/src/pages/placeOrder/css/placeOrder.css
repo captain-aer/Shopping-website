@@ -1,0 +1,273 @@
+#head {
+    height: 122px;
+    background-color: white;
+    border-bottom: 1px solid rgb(208,217,209);
+}
+#head h1 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 52px;
+    font-weight: normal;
+    color: rgb(8,79,23);
+}
+/* logo样式 */
+.webLogo {
+    margin-top: -8px;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-left: 151px;
+}
+/* input输入框样式 */
+#search {
+    position: relative;
+    margin-left:300px;
+    margin-top: 52px;
+    float: left;
+    width: 468px;
+    height:34px;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(45, 71, 62);
+    font-size: 13px;
+    color: gray;
+    padding-left: 8px;
+}
+/* 搜索框样式 */
+.seimg_span {
+    margin-top: 52px;
+    float: left;
+    width: 70px;
+    height: 38px;
+    background-color:rgb(45, 71, 62);
+}
+/* 搜索框的iconfont样式 */
+.search_img {
+    margin:10px 25px;
+    width:20px;
+    height:20px;
+    background-color:rgb(45, 71, 62);
+}
+/* 主体部分整个div */
+#placemain {
+    width: 1000px;
+    margin: 20px auto;
+}
+/* 地址list */
+.addresslist {
+    margin: 15px 0;
+}
+.active {
+    height: 150px;
+    overflow: hidden;
+}
+/* 地址list的li */
+.addresslist li {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+/* input */
+input[type='radio'] {
+    width: 18px;
+    height: 18px;
+    float: left;
+    background-color: none;
+    -webkit-appearance:none;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+input[type=radio]:checked{
+    border: 6px solid rgb(85,132,255);
+}
+/* 显示全部地址 */
+.addressbottom {
+    width: 1000px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+/* 显示全部地址和使用新地址、管理收货地址 */
+.showaddr,.newaddr,.adminaddr {
+    border-radius: 3px;
+    padding: 0 12px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+    color: black;
+    border: 1px solid rgb(208,217,209);
+}
+/* 使用新地址 */
+.newaddr,.adminaddr {
+    margin-left: 12px;
+}
+/* 显示全部地址和使用新地址、管理收货地址鼠标悬停 */
+.showaddr:hover,.newaddr:hover,.adminaddr:hover {
+    background-color: rgb(239,157,109);
+    color: white;
+}
+/* 订单详情一整个div */
+.ordlist {
+    margin-top: 36px;
+    display: inline-block;
+    width: 1000px;
+    border-top: 2px solid rgb(208,217,209);
+    padding-top: 10px;
+}
+/* 整个table */
+.ordTable {
+    width: 1000px;
+    box-sizing: border-box;
+    margin-top: 22px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* 表格头部标题 */
+.ordtheadtr {
+    border: none;
+    border-bottom: 4px solid rgb(198,227,211) !important;
+}
+/* tbody的td */
+.ordTbody tr td {
+    background-color: rgb(239,243,242) !important;
+    border: 2px solid white;
+}
+/* tbody第一个tr的td */
+.ordTbody tr:first-child>td {
+    border-bottom: 2px solid white !important;
+    border: none !important;
+}
+/* tbody第一个tr */
+.ordTbody tr:first-child {
+    border: none;
+}
+/* 商品图片 */
+.ordlimg {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+/* 商品名称 */
+.ordnamep {
+    text-align: left;
+}
+/* 商品名称和卖家备注 */
+.ordnamep p {    
+    margin-top: 15px;
+}
+/* 卖家备注 */
+.beizhu {
+    font-size: 13px;
+    color: rgb(238,129,77);
+}
+/* 小计价格 */
+.xiaoji {
+    color: rgb(238,129,77);
+}
+/* 给卖家留言td */
+.liuyan {
+    text-align: left;
+}
+/* 给卖家留言标题 */
+.liuyan .liuyanti {
+    margin-top: -36px !important;
+    position: absolute;
+}
+/* 给卖家留言textarea */
+.liuyan textarea {
+    position: absolute;
+    box-sizing: border-box;
+    width: 360px;
+    height: 64px;
+    padding: 8px;
+    margin-left: 86px;
+    margin-top: -36px !important;
+    resize: none;
+}
+/* 给买家留言textarea的0/200 */
+.shul {
+    position: absolute;
+    margin-left: 406px;
+    margin-top: 12px;
+    font-size: 13px;
+    color: rgb(150,150,150);
+}
+/* 店铺优惠、配送方式 */
+.ordyh {
+    text-align: left;
+    padding-left: 25px;
+}
+/* 店铺优惠、配送方式的小计价格 */
+.xj2 {
+    border-left: none !important;
+}
+/* 店铺优惠 */
+.ordyh {
+    border-right: none !important;
+}
+/* ￥符号 */
+.rmb {
+    font-size: 14px;
+}
+/* 右下角收货人信息 */
+.personInfo {
+    margin-top: 25px;
+    box-sizing: border-box;
+    float: right;
+    text-align: right;
+    font: 13px Arial, Helvetica, sans-serif;;
+    height: 120px;
+    line-height:30px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid rgb(8,79,23);
+}
+/* 寄送至 */
+.jisong {
+    margin-right:8px;
+}
+/* 总价格 */
+.ordtotalpri {
+    text-align: right !important;
+    padding-right: 60px;
+}
+/* 总价格 */
+.toprice {
+    font-size: 20px;
+    color: rgb(238,129,77);
+    font-weight: bold;
+}
+/* 右下角两个button、 */
+.ordbtn {
+    margin-top: 17px;
+    margin-right: -11px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    border: 1px solid rgb(45, 71, 62);
+    background-color: rgb(6,79,23);
+    cursor: pointer;
+    text-align: center;
+}
+/* 返回购物车 */
+.backcart {
+    background-color: white;
+    color: rgb(6,79,23);
+    margin-right: 0;
+    border: none;
+}
+
+hr {
+    margin-top: 240px;
+}

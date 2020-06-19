@@ -1,0 +1,201 @@
+#head {
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid rgb(208,217,209);
+}
+#head h2 {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 32px;
+    font-weight: normal;
+    color: rgb(8,79,23);
+}
+/* logo样式 */
+.webLogo {
+    margin-top: 5px;
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-left: 211px;
+}
+/* input输入框样式 */
+#search {
+    position: relative;
+    margin-left:300px;
+    margin-top: 25px;
+    float: left;
+    width: 468px;
+    height:34px;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(45, 71, 62);
+    font-size: 13px;
+    color: gray;
+    padding-left: 8px;
+}
+/* 搜索框样式 */
+.seimg_span {
+    margin-top: 25px;
+    float: left;
+    width: 70px;
+    height: 38px;
+    background-color:rgb(45, 71, 62);
+}
+/* 搜索框的iconfont样式 */
+.search_img {
+    margin:10px 25px;
+    width:20px;
+    height:20px;
+    background-color:rgb(45, 71, 62);
+}
+/* body部分 */
+#collectInfo {
+    width: 1200px;
+    margin: 15px auto;
+}
+/* 宝贝搜索一整个div */
+.xfsear {
+    float: right;
+    margin-right: 100px;
+}
+/* 宝贝搜索的input */
+#xfsearch {
+    width: 220px;
+    height: 30px;
+    padding-left: 6px;
+    border: 1px solid rgb(200,200,200);
+    color: rgb(127,127,127);
+    font: 12px tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+/* 宝贝搜索的button */
+.xfbutton {
+    position: absolute;
+    width: 55px;
+    height: 32px;
+    margin-left: -1px;
+    background-color: rgb(245,245,245);
+    border: 1px solid rgb(200,200,200);
+}
+/* 宝贝搜索的button鼠标悬停 */
+.xfbutton:hover {
+    cursor: pointer;
+}
+/* 宝贝搜索的button里的icon */
+.xfbutton i {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(127,127,127);
+}
+/* 全部宝贝 */
+.orderTop {    
+    border-bottom: 3px solid rgb(222,222,222);
+    margin-bottom: 18px;
+    line-height: 32px;
+    height: 34px;
+}
+/* 全部宝贝 */
+.orderTop div {
+    width: 120px;
+    float: left;
+    color: rgb(5,78,22);
+    font-weight: bold;
+    margin-top: 3px;
+    text-align: center;
+    border-bottom: 3px solid rgb(5,78,22);
+}
+/* 宝贝列表ul */
+.collectList ul {
+    margin:55px 0;
+}
+/* 宝贝列表li */
+.collectinfoli {
+    width: 150px;
+    height: 226px;
+    display: inline-block;
+    margin-right: 9.5px;
+    margin-left: 9.5px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid rgb(242,242,242);
+}
+/* li鼠标悬停 */
+.collectinfoli:hover { 
+    border: 1px solid rgb(167,214,188);
+}
+/* 宝贝图片img */
+.collectimg {
+    width: 150px;
+    height: 150px;
+}
+/* 宝贝名称 */
+.collname {
+    color: black;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 9px;
+}
+/* 宝贝价格 */
+.collprice {
+    color: #f40;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: verdana,arial;
+}
+/* 宝贝原价 */
+.colloldprice {
+    font-family: arial;
+    color: #9c9c9c;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+/* 删除按钮 */
+.delicon {
+    position: absolute;
+    margin-left: -30px;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+    line-height: 26px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+/* 删除按钮 */
+.delicon:hover {
+    background-color: #f40;
+    opacity: 1;
+}
+/* 鼠标悬停到li时，删除按钮显示 */
+.collectinfoli:hover .delicon {
+    display: inline-block;
+}
+.tankuang {
+    position: absolute;
+    margin-top: -207px;
+    width: 150px;
+    height: 226px;
+    background: rgba(0,0,0,0.4);
+}
+.tankuang p {
+    color: white;
+    font-size: 14px;
+    margin-top: 70px;
+}
+.tankuang button {
+    margin-top: 20px;
+    margin-left: 5px;
+    border:1px solid #ff4200;
+    background-color: #ff4200;
+    color: white;
+    font-size: 13px;
+    width: 52px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.tanbtn2 {
+    background-color: white !important;
+    border: 1px solid rgb(127,127,127) !important;
+    color: rgb(127,127,127) !important;
+}

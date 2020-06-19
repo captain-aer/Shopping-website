@@ -1,0 +1,325 @@
+/* head模块的样式 */
+#head {
+    height: 137px;
+    background-color: white;
+    border-bottom: 1px solid rgb(208,217,209);
+  }
+  /* logo样式 */
+  .webLogo {
+    margin-top: -8px;
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin-left: 151px;
+  }
+  /* input输入框样式 */
+  #search {
+    position: relative;
+    margin-left:80px;
+    margin-top: 28px;
+    float: left;
+    width: 468px;
+    height:34px;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(45, 71, 62);
+    font-size: 13px;
+    color: gray;
+    padding-left: 8px;
+  }
+  /* 搜索框样式 */
+  .seimg_span {
+    margin-top: 28px;
+    float: left;
+    width: 70px;
+    height: 38px;
+    background-color:rgb(45, 71, 62);
+  }
+  /* 搜索框的iconfont样式 */
+  .search_img {
+    margin:10px 25px;
+    width:20px;
+    height:20px;
+    background-color:rgb(45, 71, 62);
+  }
+  /* 我的购物车div样式 */
+  .shop_car {
+    margin: 30px 80px;
+    float: left;
+    width: 140px;
+    height:45px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+  }
+  /* 购物车iconfont */
+  .img_shop_car {
+    float: left;
+    width: 28px;
+    height: 28px;
+    padding-top: 8px;
+    padding-left: 16px;
+  }
+  /* 我的购物车a链接 */
+  .shop-car-text {
+    font-size: 14px;
+    float: left;
+    padding:12px 8px;
+  }
+  /* 我的购物车链接鼠标悬停效果 */
+  .shop-car-text:hover {    
+    color: rgb(223,89,0);
+  }
+  /* 热门搜索样式 */
+  .hot_search {
+    position: absolute;
+    width: 478px;
+    left: 400px;
+    top: 102px;
+  }
+  /* 热门搜索的第一个 */
+  .hot_search a:first-child {  
+    color: rgb(223,89,0);
+  }
+  /* 热门搜索第一个链接的鼠标悬停效果 */
+  .hot_search a:hover {
+    color: rgb(223,89,0);
+  }
+  /* 热门搜索的a链接 */
+  .hot_search a {
+    float: left;
+    bottom: 20px;
+    left: 100px;
+    padding-right: 5px;  
+    color: gray;
+  }
+  /* 头部菜单导航 */
+  .head_menu {
+    position: absolute;
+    width: 684px;
+    left: 310px;
+    top: 136px;
+  }
+  /* 头部菜单导航的列表 */
+  .head_menu li {
+    float: left;
+    padding-right: 32px;
+    background-color: white;
+  }
+  /* 头部菜单导航的第一第二个链接 */
+  .head_menu li:first-child>a,.head_menu li:nth-child(2)>a {
+    color: rgb(223,89,0);
+    font-weight: bold;
+  }
+  /* 头部菜单导航的a链接 */
+  .head_menu a {
+    font-size: 16px;  
+    color: rgb(84,117,74);
+  }
+  /* 头部菜单导航a链接的鼠标悬停效果 */
+  .head_menu a:hover {
+    font-weight: bold;
+  }
+  /* head模块图片轮播部分 */
+  #head_M {
+    margin-top: 14px;
+  }
+  /* 左侧列表菜单div */
+  .M_left{
+    width: 330px;
+    float: left;
+  }
+  /* 左侧列表菜单ul */
+  .M_left_menu {
+    margin-left: 130px;
+    height: 425px;
+    width: 160px;
+    background-color: white;
+    padding: 10px 20px;
+  }
+  /*  左侧列表菜单|  */
+  .M_left_menu li>span {
+    padding: 0 5px;
+    color: gray;
+  }
+  /* 左侧列表菜单li */
+  .M_left_menu li {
+    width: 180px;
+    padding: 3px 0;
+    float: left;
+  }
+  .M_left_menu li:hover {
+    background-color: lightgray;
+  }
+  /* 左侧列表菜单a链接 */
+  .M_left_menu li>a {
+    font-size: 14px;
+  }
+  /* 左侧列表a链接鼠标悬停效果 */
+  .M_left_menu li>a:hover {
+    color: rgb(223,89,0);
+  }
+  /* 头部大图片轮播 */
+  .M_middle_l {
+    margin-left: 12px;
+    float: left;
+    width: 600px;
+    background-color: white;
+  }
+  /* 头部大轮播组件 */
+  imgsBanner1 {
+    float: left;
+  }
+  /* 头部小轮播 */
+  .M_middle_r {
+    float: left;
+    margin-left: 12px;
+    margin-top: -5px;
+  }
+  /* 头部右侧部分 */
+  .M_right {
+    position: absolute;
+    margin-left: 1148px;
+    height: 445px;
+    width: 195px;
+    background-color: white;
+  }
+  /* 右侧头像 */
+  .headimg {
+    margin-top: -2px;
+    margin-left:8px;
+    margin-right: 10px;
+    float: left;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid rgb(73,108,76);
+  }
+  /* 欢迎登录 */
+  .welcome {
+    margin-top: 16px;
+    font-size: 12px;
+  }
+  /* 右侧登录注册链接 */
+  .login_t {
+    margin-top: 5px;
+  }
+  /* 头部右侧新人福利 */
+  .xinren {
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: -40px;
+    margin-top: 13px;
+    border-radius: 13px;
+    float: left;
+    background-color: rgb(201,33,24);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
+  /* 头部右侧UNI会员 */
+  .vip {
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 100px;
+    margin-top: 13px;
+    border-radius: 13px;
+    background-color: rgb(52,52,50);
+    color: rgb(229,215,144);
+    font-size: 12px;
+    text-align: center;
+  }
+  /* 头部右侧直线 */
+  .M_right hr {
+    margin:11px 22px;
+    border:0.5px solid rgb(231,236,225);
+    width: 150px;
+  }
+  /* 头部右侧今日特卖 */
+  .toHot {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 12px;
+  }
+  /* 头部右侧更多 */
+  .toMore {
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+    color: rgb(141,163,143);
+  }
+  /* 头部右侧iconfont的div */
+  .icon_menu {
+    margin-top: -11px;
+    width: 260px;
+  }
+  /* 头部右侧iconfont列表 */
+  .icon_menuList {
+    margin-left: 5px;
+  }
+  /* 头部右侧iconfont列表li */
+  .icon_float {
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  /* 头部右侧iconfont */
+  .icon_list i{
+    font-size: 40px !important;
+  }
+  /* 头部右侧iconfont鼠标悬停 */
+  .icon_list:hover>i {
+    color:  rgb(123,98,246);
+  }
+  /* 头部右侧列表iconfont标题 */
+  .icon_text {
+    padding-left: 7px;
+  }
+   /* 头部右侧列表iconfont标题鼠标悬停 */
+  .icon_text:hover {
+    color: rgb(223,89,0);
+    font-weight: bold;
+  }
+  /* 今日特卖滚动轮播 */
+  .scrollBanner {
+    margin-top: 485px;
+  }  
+  /* 今日特价div */
+  .findBuy {
+    margin-top: 20px;
+  }
+  /* 右侧悬停菜单 */
+  #menuList {
+    position: fixed;
+    left: 1320px;
+    top: 180px;
+    width: 100px;
+  }
+  /* 右侧悬浮菜单 */
+  .menu_ul li {
+    position: relative;
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 19px;
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    margin-top: 1px;
+    text-align: center;
+    /* -webkit-transition: color .2s ease;
+    transition: color .2s ease; */
+    background: #fff;
+    z-index: 1;
+  }
+  /* 右侧悬浮菜单 */
+  #menuList {
+    z-index: 1;
+  }
+  /* 右侧悬浮菜单的li鼠标悬停效果 */
+  .menu_ul li:hover {
+    background-color: rgb(201,33,24);
+    color: white;
+  }

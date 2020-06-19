@@ -1,0 +1,169 @@
+#head {
+height: 137px;
+background-color: white;
+border-bottom: 1px solid rgb(208,217,209);
+}
+/* logo样式 */
+.webLogo {
+margin-top: -8px;
+float: left;
+width: 160px;
+height: 160px;
+margin-left: 151px;
+}
+/* input输入框样式 */
+#search {
+position: relative;
+margin-left:80px;
+margin-top: 38px;
+float: left;
+width: 468px;
+height:34px;
+background: none;
+outline: none;
+border: 2px solid rgb(45, 71, 62);
+font-size: 13px;
+color: gray;
+padding-left: 8px;
+}
+/* 搜索框样式 */
+.seimg_span {
+margin-top: 38px;
+float: left;
+width: 70px;
+height: 38px;
+background-color:rgb(45, 71, 62);
+}
+/* 搜索框的iconfont样式 */
+.search_img {
+margin:10px 25px;
+width:20px;
+height:20px;
+background-color:rgb(45, 71, 62);
+}
+/* 我的购物车div样式 */
+.shop_car {
+margin: 40px 80px;
+float: left;
+width: 140px;
+height:45px;
+border: 1px solid lightgray;
+border-radius: 8px;
+}
+/* 购物车iconfont */
+.img_shop_car {
+float: left;
+width: 28px;
+height: 28px;
+padding-top: 8px;
+padding-left: 16px;
+}
+/* 我的购物车a链接 */
+.shop-car-text {
+font-size: 14px;
+float: left;
+padding:12px 8px;
+}
+/* 我的购物车链接鼠标悬停效果 */
+.shop-car-text:hover {    
+color: rgb(223,89,0);
+}
+
+/* 整个商品选择div */
+#detailTop {
+    height: 450px;
+    margin-left: 185px;
+    margin-top: 15px;
+    width: 100%;
+}
+/* 商品小图片div */
+.little_img {
+    width: 464px;
+}
+/* 商品小图片列表 */
+.little_img ul {
+    margin-left: -1px;
+    margin-top: 12px;
+}
+/* 商品小图片列表li */
+.little_img ul>li {
+    float: left;
+    width: 79px;
+    border: 1px solid white;
+}
+/* 商品小图片 */
+.littleImg {
+    width: 76px;
+    height: 76px;
+}
+/* 商品小图片鼠标悬停效果 */
+.litteli:hover {
+    opacity: 0.8;
+}
+
+/* 商品大图鼠标悬停显示的div */
+.demo {
+    display: block;
+}
+/* 整个图片div */
+.box {
+    position: relative;
+    width: 400px;
+}
+/* 商品大图片左边 */
+.box .thumb{
+    position:relative;
+    width:400px;
+    height:400px;
+}
+/* 商品大图片左边图片 */
+.box .thumb img{
+    width:400px;
+    height:400px;
+}
+/* 商品大图片鼠标悬停下的阴影效果 */
+.box .thumb .move{
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    width:200px;
+    height:200px;
+    background-color: rgba(0,0,0,0.4);
+}
+/* 商品大图片右边隐藏div */
+.box .scale{
+    display:none;
+    position:absolute;
+    right:-420px;
+    top:0;
+    width:400px;
+    height:400px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    z-index: 1;
+}
+/* 商品大图片右边隐藏div的img */
+.box .scale img{
+    position:absolute;
+    left:0;
+    top:0;
+}
+/* 商品左边图片鼠标悬停下的阴影 */
+.box .thumb:hover .move{
+    display:block;
+}
+/* 商品左边图片在鼠标悬停下右边div的效果 */
+.box .thumb:hover+.scale{
+    display:block;
+}
+/* 右边隐藏商品图片 */
+.demo {
+    width: 800px;
+    height: 800px;
+}
+#detailButtom {
+    margin-top: 80px;
+    width: 1000px;
+    margin-left: 185px;
+}

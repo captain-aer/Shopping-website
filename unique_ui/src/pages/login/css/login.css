@@ -1,0 +1,179 @@
+/* logo里的div */
+.login_top {
+    width: 100%;
+    height: 126px;
+    background-color: white;
+}
+/* 欢迎登录 */
+.login_top p {
+    padding-top: 65px;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+/* logo. */
+.webLogo {
+    margin-top: -8px;
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin-left: 181px;
+}
+
+/* 已有账户，去登陆 */
+.Toindex {
+    float: right;
+    margin-top: -10px;
+    margin-right: 120px;
+    color: gray;
+    font-size: 15px !important;
+    letter-spacing: 1px !important; 
+    font-size: 15px;
+    color: rgb(210,98,48);
+}
+.Toindex:hover {
+    font-weight: bold;
+}
+/* 登录大div */
+.login_middle{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(49,66,60);
+}
+/* 左侧图片 */
+.lobj {
+    margin-top: 45px;
+    height: 430px;
+    float: left;
+    position: absolute;
+    left: 160px;
+    opacity: 0.6;
+}
+/* 登录div */
+.loginInfo {
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    left: 980px;
+    width: 330px;
+    height: 420px;
+    background-color: white;
+}
+/* 账户密码登录 */
+h3 {
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+    width: 330px;
+    height: 60px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(200,202,200);
+}
+/* 两个输入框加iconfont的div */
+.user_input,.mima_input {
+    margin-top: 28px;
+    margin-left: 16px;
+}
+/* 用户名输入框 */
+.user_input {
+    margin-top: 45px;
+}
+/* 输入框 */
+input {
+    width: 243px;
+    height: 40px;
+    padding-left: 8px;
+    margin-left: -1px;
+}
+/* 用户名和密码iconfont的div */
+.usericon,.pswicon {
+    float: left;
+    width: 42px;
+    height:42px;
+    line-height: 42px;
+    border: 1px solid #999;
+    text-align: center;
+    background-color: rgb(237,239,238);
+}
+/* 用户名和密码的iconfont */
+.usericon>i,.pswicon>i {
+    font-size: 22px;
+    color: #999;
+}
+/* 忘记密码链接 */
+.forget {
+    float: right;
+    margin: 22px 18px;
+    font-size: 13px;
+    color: rgb(102,119,114);
+}
+/* 忘记密码鼠标悬停效果 */
+.forget:hover {
+    color: rgb(230,172,0);
+}
+/* 登录button */
+.btn_login {
+    box-sizing: border-box;
+    width: 295px;
+    height: 40px;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 25px;
+    padding-left: 20px;
+    background-color: rgb(218,81,47);
+    border: none;
+    color: white;
+    margin-bottom: 26px;
+}
+/* 登录按钮鼠标悬停效果 */
+.btn_login:hover {
+    background-color: rgb(208,70,36);
+}
+/* 登录div最底下的其他登录和立即注册 */
+.login_bottom {
+    box-sizing: border-box;
+    width: 330px;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid rgb(200,202,200);
+    padding-left: 20px;
+}
+.login_bottom>a {
+    padding-left: 12px;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+/* 立即注册 */
+.toregister {
+    float: right;
+    margin-right: 10px;
+}
+.toregister a {    
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/* 立即注册鼠标悬停效果 */
+.toregister a:hover {
+    color: rgb(218,81,47);
+}
+/* qq微信 */
+.weqq span {
+    padding-left: 4px;
+    position: absolute;
+    margin-top: -3px;
+}
+/* qq微信 */
+.boqq {
+    border-right: 1px solid rgb(200,202,200);
+    padding-right: 38px;
+}
+.weqq:hover>span {
+    color: rgb(218,81,47);
+}
+.tishi {
+    position: absolute;
+    color: rgb(208,70,36);
+    font-size: 12px;
+    margin-left: 66px;
+    margin-top: 2px;
+}

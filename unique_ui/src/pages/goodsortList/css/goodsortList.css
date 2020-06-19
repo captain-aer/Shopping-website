@@ -1,0 +1,307 @@
+#head {
+height: 137px;
+background-color: white;
+border-bottom: 1px solid rgb(208,217,209);
+}
+/* logo样式 */
+.webLogo {
+margin-top: -8px;
+float: left;
+width: 160px;
+height: 160px;
+margin-left: 151px;
+}
+/* input输入框样式 */
+#search {
+position: relative;
+margin-left:80px;
+margin-top: 38px;
+float: left;
+width: 468px;
+height:34px;
+background: none;
+outline: none;
+border: 2px solid rgb(45, 71, 62);
+font-size: 13px;
+color: gray;
+padding-left: 8px;
+}
+/* 搜索框样式 */
+.seimg_span {
+margin-top: 38px;
+float: left;
+width: 70px;
+height: 38px;
+background-color:rgb(45, 71, 62);
+}
+/* 搜索框的iconfont样式 */
+.search_img {
+margin:10px 25px;
+width:20px;
+height:20px;
+background-color:rgb(45, 71, 62);
+}
+/* 我的购物车div样式 */
+.shop_car {
+margin: 40px 80px;
+float: left;
+width: 140px;
+height:45px;
+border: 1px solid lightgray;
+border-radius: 8px;
+}
+/* 购物车iconfont */
+.img_shop_car {
+float: left;
+width: 28px;
+height: 28px;
+padding-top: 8px;
+padding-left: 16px;
+}
+/* 我的购物车a链接 */
+.shop-car-text {
+font-size: 14px;
+float: left;
+padding:12px 8px;
+}
+/* 我的购物车链接鼠标悬停效果 */
+.shop-car-text:hover {    
+color: rgb(223,89,0);
+}
+
+.m_top {
+    height: 95px;
+}
+/* 所有宝贝整个div */
+.allgoods {
+    margin: 5px auto;
+    width: 1245px;
+    height: 37px;
+    line-height: 37px;
+    background-color: white;
+    border-bottom: 2px solid teal;
+}
+/* 所有宝贝文字 */
+.allgoods p {
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height: 37px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: teal;
+}
+/* 综合排序整个ul */
+.allsortul {
+    box-sizing: border-box;
+    width: 1245px;
+    height: 35px;
+    line-height: 35px;
+    margin: 6px auto;
+    color: teal;
+    background-color: rgb(242,244,243);
+}
+/* 综合排序ul里的li */
+.allsortul li,.showbtn {
+    float: left;
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 85px;
+    text-align: center;
+}
+.showbtn {
+    height: 35px;
+    background-color: rgb(242,244,243);
+    border-right:none;
+    border-left:  1px solid teal;
+    border-top: none;
+    border-bottom: none;
+    color: teal;
+}
+/* 综合排序ul里的li鼠标悬停效果 */
+.allsortul li:hover>.showbtn {
+    background-color: teal;
+    color: white;
+}
+.on {
+    background-color: teal;
+    color: white;
+}
+/* 销量和价格两个btn */
+.numbtn,.sortbtn {
+    width: 85px;
+    height: 35px;
+    border: 1px solid teal;
+    background-color: rgb(242,244,243);
+    color: teal;
+    position: absolute;
+}
+/* 销量和价格两个btn鼠标悬停 */
+.numbtn:hover,.sortbtn:hover {
+    background-color: teal;
+    color: white;
+}
+/* 销量和价格第一个btn */
+.nbtn1,.btn1 {
+    border-top: none;
+}
+/* 销量和价格第二个btn */
+.nbtn2,.btn2 {
+    margin-top: -2px;
+    margin-top: 34px; 
+}
+/* 销量和价格隐藏的div */
+.prisort,.salenum {
+    display: none;
+   position: absolute;
+   margin-top: 34px;
+   margin-left: -85px;
+}
+.showbtn:hover~.prisort,.showbtn:hover~.salenum {
+    display: inline-block;
+}
+.show1:hover>.prisort,.show1:hover>.salenum {
+    display: inline-block;
+}
+
+/* 商品信息整个大div */
+.saleinfo {
+    width: 1365px;
+    height: 2380px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+/* .saleinfolist {
+    position: absolute;
+    z-index: -1;
+} */
+/* 商品信息的每个小li */
+.saleinfolist li {
+    width: 309px;
+    height: 474px;
+    border: 1px solid rgb(242,244,243);
+    background-color: white;
+    float: left;
+}
+/* 商品信息的图片 */
+.salea img {
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+/* 商品信息的价格 */
+.saleprice {
+    font-size: 22px;
+    color: #e4393c;
+    padding-left: 18px;
+    padding-top: 7px;
+}
+/* 商品信息价格的¥符号 */
+.saleprice span {
+    font-size: 14px;
+    padding-right: 2px;
+}
+/* 商品信息的商品名称 */
+.salename {
+    font-size: 16px;
+    padding-left: 18px;
+    color: #666;
+    padding-top: 3px;
+}
+/* 商品信息的商品名称的鼠标悬停效果 */
+.salename:hover {
+    color: rgb(223,89,0);
+}
+/* 商品信息的评价人数 */
+.sanum {
+    padding-left: 18px;
+    font-size: 13px;
+    color: #a7a7a7;
+    padding-top:5px;
+}
+/* 商品信息的评价人数数字 */
+.sanum span {
+    color: #646fb0;
+    font-family: verdana;
+    font-weight: 700;
+}
+/* 商品信息店铺名称 */
+.salstore {
+    padding-left: 18px;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #a7a7a7;
+}
+/* 商品信息两个button */
+.addbtn {
+    float: right;
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #DDD;
+    margin-top: 14px;
+    font-size: 13px;
+    color: #999;
+    z-index: 0;
+}
+/* 加入购物车button */
+.addbuy {
+    margin-right: 25px;
+    color: rgb(223,89,0);
+}
+/* 两个button鼠标悬停效果 */
+.addbtn:hover {
+    border: 1px solid rgb(223,89,0);
+    color: rgb(223,89,0);
+    z-index: 1;
+}
+/* 商品信息鼠标悬停下图片的效果 */
+.salea:hover>img {
+    opacity: 0.8;
+}
+.sainfoli:hover {
+    border: 1px solid #a7a7a7;
+}
+/* 底部分页div */
+.pagination {
+    position:absolute;
+    top:2680px;
+    width: 1245px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 60px;
+    background-color: white;
+}
+/* 底部分页各小div */
+.pagination div>div {
+    float: left;
+    width: 30px;
+    height: 30px;
+
+}
+/* 底部分页各小div的a链接 */
+/* .pagination div>div>a {
+    font-size: 16px;
+    font-weight: bold;
+} */
+/* 底部分页各小div的鼠标悬停效果 */
+/* .pagination div>div:hover {
+    background-color: rgb(60,116,107);
+} */
+/* 底部分页各小div的a链接的鼠标悬停效果 */
+/* .pagination div>div:hover>a {
+    color: white; */
+/* } */
+/* 上一页和下一页两个div */
+/* #prepage,#nextpage {
+    width: 90px; */
+/* } */
+/* .active {
+    background-color: rgb(60,116,107);
+}
+.active a {
+    color: white;
+} */

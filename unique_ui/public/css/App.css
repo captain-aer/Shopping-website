@@ -1,0 +1,42 @@
+
+/* //top细导航 */
+#top {
+  padding-top: 5px;
+  height: 24px;
+}
+ul {
+  list-style: none;
+  margin: 0 60px;
+}
+/* // 定位 */
+.top_left li {
+  font-size: 12px;
+  float: left;
+}
+/* // 右侧小导航 */
+.top_right {
+  margin-right: 140px;
+}
+/* // 右侧小导航 */
+.top_right li {
+  font-size: 12px;
+  float: right;
+  padding:0 20px;
+  border-right: 1px solid lightgray;
+}
+/* // 右侧小导航链接标签 */
+.top_right a:hover {
+  font-weight: bold;
+  color: rgb(54,88,72);
+}
+/* // 定位iconfont */
+.imgLoca {
+  width: 45%;
+  height: 45%;
+  
+}
+/* // 定位两个字 */
+.location_ {
+  margin-left: -10px;
+  margin-top: -2px;
+}
